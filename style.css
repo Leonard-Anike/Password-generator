@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E8F1EB;
+    margin: 100px auto;
+    border: 5px solid #FEFEFE;
+    border-radius: 15px;
+    width: 455px;
+    height: 455px;
+}
+
+.container {
+    background: #1F2937;
+    height: 450px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: px;
+    height: 430px;
+}
+
+.body-text {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+span {
+    display: block;
+    color: #4ADF86;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: D5D4D8;
+}
+
+.password {
+    margin-top: 35px;
+    color: #D4D4D3;
+    font-size: 16.5px;
+}
+
+label {
+    font-style: italic;
+}
+
+#pwd-length {
+    display: inline;
+    margin-left: 8px;
+    font-size: small;
+    word-spacing: 5px;
+}
+
+input {
+    margin-left: 10px;
+    text-align: center;
+    color: #4ADF86;
+    background: black;
+    padding: 6px 5px;
+    border: 1px solid #D4D4D3;
+    border-radius: 15px;
+    font-weight: 750;
+}
+
+#password-btn {
+    border-radius: 5px;
+    margin-top: 40px;
+    background-color: #10B981;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    color: #DDF6EE;
+    cursor: pointer
+}
+
+#password-btn:hover {
+    background: #127051;
+}
+
+.password-el {
+    border-top: 1px solid #293647;
+    margin-top: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#password1-el,
+#password2-el {
+    background: #273648;
+    border: 1px solid #1E2A37;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 175px;
+    height: 25px;
+    color: #55F991;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.password-el-copy {
+    display: flex;
+    border: none;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#password-el-copy1,
+#password-el-copy2 {
+    border-radius: 5px;
+    background-color: #10B981;
+    padding: 5px 20px;
+    margin-right: 40px;
+    font-size: 14px;
+    border: none;
+    color: #DDF6EE;
+    cursor: pointer;
+}
+
+#password-el-copy1:hover,
+#password-el-copy2:hover {
+    background: #127051
+}
